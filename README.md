@@ -66,8 +66,7 @@
 </aside>
 
 ## 기존 상권 분석 서비스의 문제점
-
-![그림.png](fdcb2c00-83c3-4c82-9356-6309e8315829/%EA%B7%B8%EB%A6%BC.png)
+![image](https://user-images.githubusercontent.com/92079309/201586822-fadbf1a8-ccbc-48d5-82f4-f6ea17135f41.png)
 
 <aside>
 💡 기존 상권 분석 서비스는 지역에 따른 업종 분석을 할 때, 해당 업종의 분포도를 알 수 없고, 메뉴에  선택한 업종이나 지역이 선택이 되어있는지 없는지 확인이 어려운 단점이 있습니다.
@@ -76,7 +75,8 @@
 
 # 2. 프로젝트 범위 및 구성
 
-![그림1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/694e4995-0015-4dbb-9277-7897c150e8ce/%EA%B7%B8%EB%A6%BC1.png)
+![image](https://user-images.githubusercontent.com/92079309/201587034-94fd1dec-cf28-4102-b84d-1b96ad9f3be3.png)
+
 
 - 지도 구현을 위한 Folium 라이브러리, 시각화를 위한 FusionChart 조사
 - 서버 구현을 위한 AWS, Django 학습
@@ -94,7 +94,8 @@
 
 ## 소프트웨어 아키텍처
 
-![그림2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11648a9f-9e57-4112-b5a8-549854f24b81/%EA%B7%B8%EB%A6%BC2.png)
+![image](https://user-images.githubusercontent.com/92079309/201587133-b2cb8396-dea8-42a7-a258-94baa3855c68.png)
+
 
 <aside>
 💡 Html Form에서 분류 코드명을 받아 submit 하면 rest api를 통해 장고에 전달되고, 값을 통하여 AWS RDS에 있는 정보들을 query로 불러 들여와 작성한 folium함수와 FusionCharts에   값을 전달하여 작성된 템플릿 html 웹페이지에 시각화 해주는 구조입니다.
@@ -102,8 +103,7 @@
 </aside>
 
 ## 통신 순서
-
-![그림3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5a5282eb-d72f-47f4-bf65-304f069462d0/%EA%B7%B8%EB%A6%BC3.png)
+![image](https://user-images.githubusercontent.com/92079309/201587197-ce7d1bd8-00ff-4a01-8096-151b1b4c338c.png)
 
 <aside>
 💡 프로젝트는 Django의 Web FrameWork를 기반으로 MVT 모델을 활용하였으며, Web Server에서 Form모듈을 이용하여 분류 코드를 Json형태로 데이터를 변환하고, 변환된 데이터를 Rest Api를 통해 Django에 전달하여 Browser에 띄워주는 형식의 구조입니다.
@@ -111,25 +111,15 @@
 </aside>
 
 ## 웹 페이지
+![image](https://user-images.githubusercontent.com/92079309/201587319-72aa9394-1cff-4042-9339-b6e8673c0351.png)
 
-![그림4.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee64aaa1-a1d0-459b-b235-e68a8eca0e6f/%EA%B7%B8%EB%A6%BC4.png)
-
-![그림5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5aa05de3-6601-42df-b819-c437dd713aa9/%EA%B7%B8%EB%A6%BC5.png)
-
-![그림6.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb5072b9-18fa-440a-8738-fd4be8603f67/%EA%B7%B8%EB%A6%BC6.png)
-
-               [그림 1] 메인 화면
-
-      [그림2] 업종 현황 지도 버튼
-
-[그림3] 분석 결과 버튼
+[그림 1] 메인 화면          [그림2] 업종 현황 지도 버튼           [그림3] 분석 결과 버튼
 
 <aside>
 💡 웹 페이지에 접속하면 [그림1]과 같은 화면이 나옵니다. 좌측 상단에 [그림2]와 [그림3]과 같이 각각 2가지 선택할 수 있는 버튼이 존재합니다. [그림2]의 선택박스는 지역/대 분류/중 분류/소 분류로 구성되어 있는 업종 현황 지도로 이동하는 버튼입니다. [그림3]의 선택 박스는 시ㆍ도/구/행정동으로 구성되어 있는 분석 결과로 이동하는 버튼입니다.
 
 </aside>
-
-![그림7.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb4728d6-e106-479c-b166-35b026a43a7b/%EA%B7%B8%EB%A6%BC7.png)
+![image](https://user-images.githubusercontent.com/92079309/201587733-d10f1096-d13e-43d9-ba3a-3af315acab99.png)
 
  [그림4] 업종 현황 지도(Marker Cluster)
 
