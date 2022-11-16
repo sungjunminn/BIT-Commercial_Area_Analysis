@@ -119,50 +119,51 @@
 💡 웹 페이지에 접속하면 [그림1]과 같은 화면이 나옵니다. 좌측 상단에 [그림2]와 [그림3]과 같이 각각 2가지 선택할 수 있는 버튼이 존재합니다. [그림2]의 선택박스는 지역/대 분류/중 분류/소 분류로 구성되어 있는 업종 현황 지도로 이동하는 버튼입니다. [그림3]의 선택 박스는 시ㆍ도/구/행정동으로 구성되어 있는 분석 결과로 이동하는 버튼입니다.
 
 </aside>
-![image](https://user-images.githubusercontent.com/92079309/201587733-d10f1096-d13e-43d9-ba3a-3af315acab99.png)
+
+![image](https://user-images.githubusercontent.com/92079309/202110038-d851bfd9-110d-46af-b1c9-2af1e0fa445c.png)
 
  [그림4] 업종 현황 지도(Marker Cluster)
 
 [그림2]에서 지역/대 분류/중 분류/소 분류를 선택하고, 검색 버튼을 누르면 [그림4]와 같은 지도 화면으로 전환됩니다. [그림4]에선 선택한 업종에 대해 어느 지역에 얼마나 분포되어 있는지 한눈에 확인할 수 있습니다.
 
-![그림8.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f73075db-af35-44a3-92be-e66744077c64/%EA%B7%B8%EB%A6%BC8.png)
+![image](https://user-images.githubusercontent.com/92079309/202110547-2580de93-3017-44c2-872f-fcac9ca145f9.png)
 
 [그림4]에서 Zoom In을 하게 되면 [그림5]와  같이 선택 업종에 대한 정확한 위치를 알 수 있습니다.
 
         [그림5] 업종 현황 지도(Marker)
 
-![그림10.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d7066a2-b02b-421e-ac4e-269ab953d257/%EA%B7%B8%EB%A6%BC10.png)
+![image](https://user-images.githubusercontent.com/92079309/202110655-2464928e-9725-48af-96a3-cbbb82fa4ccd.png)
 
 [그림3]에서 시ㆍ도/구/행정동을 선택하고 검색 버튼을 누르면 [그림7]과 같은 분석 화면으로 전환됩니다.
 [그림7]에서는 선택 지역에 대해 인구를 기준으로  남/여 성비, 요일 별 평균 상주 인구,        월 평균 시간 별 상주 인구, 일 평균 나이대 별   상주 인구를 각각의 그래프로 시각화합니다.
 
             [그림7] 분석 결과(인구 분석)
 
-![그림11.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e705555c-f063-4bd6-b6cd-850fa410af35/%EA%B7%B8%EB%A6%BC11.png)
+![image](https://user-images.githubusercontent.com/92079309/202110732-5f737727-9435-497d-bc0d-741249bc8a0f.png)
 
 [그림7] 하단에 위치한 [그림8]에서는 가구를 기준으로 한 주택 현황, 세대 수 그래프와      오픈/폐업을 기준으로 한 운영 개월 수, 오픈/폐업 가게 수 그래프를 시각화합니다.
 
  [그림8] 분석 결과(가구 및 운영/폐업 분석)
 
-![그림12.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ed5e585e-ea45-4db9-a119-c3d0a4db37b6/%EA%B7%B8%EB%A6%BC12.png)
+![image](https://user-images.githubusercontent.com/92079309/202110822-ec91f8c8-d8f4-449c-953f-5892f9649708.png)
 
                                                       [그림9] 분석 결과(학교 현황)
 
-![그림13.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0b6a76a6-25fc-4f89-b617-978f5f32c7d6/%EA%B7%B8%EB%A6%BC13.png)
+![image](https://user-images.githubusercontent.com/92079309/202110898-37232095-067c-47f0-afde-c700fcc6f06d.png)
 
                     [그림10] 평가 종합
 
 [그림10]에서는 선택 지역에 대한 평가 종합 점수 및 등급을 시각화합니다.
 접근성, 집객력, 구매력, 안정성, 성장성 5가지 평가 기준으로 점수화하여 다각형 그래프로  표현하였고, 5가지 평가 기준을 더한 총 점수를 1~5등급으로 등급화하여 게이지 그래프로    시각화하였습니다. 점수 및 등급을 기반으로 선택 지역에 대한 업종을 추천해줍니다.
 
-![그림14.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b79c67a6-0ff2-4d53-8b1d-db9634f60b4e/%EA%B7%B8%EB%A6%BC14.png)
+![image](https://user-images.githubusercontent.com/92079309/202110981-a92560e1-4942-440f-99fc-8babd030c221.png)
 
                        [그림11] 접근성
 
 5가지 평가 기준 중 첫 번째인 접근성입니다.
 상권별 점수로는 총 10점으로 아파트가/병원가/단독 주택가/혼합형/특수 상권으로 나눴고,  다섯 가지 상권 별로 A,B,C 급지로 나누어 점수를 다르게 부여하였습니다. 버스 이용자 수는 총 5점으로 선택 지역 내 하루 평균 버스 이용자 수입니다. 지하철 이용자 수는 총 5점으로 선택 지역 내 하루 평균 지하철 이용자 수입니다. 접근성의 급지 평가에 대한 자세한 설명은 [별첨]을 참고합니다. 아래 텍스트는 접근성을 점수화한 데이터의 수치들을 나타내어 줍니다.
 
-![그림15.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e9d8ab4b-50b4-4d27-94bb-eabff79a08d8/%EA%B7%B8%EB%A6%BC15.png)
+![image](https://user-images.githubusercontent.com/92079309/202111040-169df2a1-e164-410b-8985-a707b45b2ba9.png)
 
                        [그림12] 집객력
 
@@ -170,7 +171,7 @@
 유동 인구는 선택 지역 내 면적 당 유동 인구 수입니다. (유동 인구 1000명 당 0.1점)
 배후 주거 인구는 선택 지역 내 면적 당 주거 인구 수입니다. (배후 주거 인구 1000명 당 0.1점) 배후 직장 인구는 선택 지역 내 면적 당 직장 인구 수입니다. (배후 직장 인구 1000명 당 0.1점)아래 텍스트는 집객력을 점수화한 데이터의  수치들을 나타내어 줍니다.
 
-![그림16.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b54d1002-5c0c-4393-9852-e4f53f3e83a7/%EA%B7%B8%EB%A6%BC16.png)
+![image](https://user-images.githubusercontent.com/92079309/202111133-abf2f665-9800-4441-a3fd-dd9e8583c081.png)
 
                        [그림13] 구매력
 
@@ -178,14 +179,14 @@
 상권 매출 규모는 선택 지역 내 면적 당 매출액입니다. (매출액 1000당 0.1점)
 직장 인구 소비 수준은 선택 지역 내 직장 인구  월 평균 소비규모입니다. (소비규모 100당 0.5점) 주거 인구 소비 수준은 선택 지역 내 주거 인구  월 평균 소비규모입니다. (소비규모 10당 0.1점) 아래 텍스트는 구매력을 점수화한 데이터의  수치들을 나타내어 줍니다.
 
-![그림17.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cafdcc06-effe-45f1-98e1-d671b98184d1/%EA%B7%B8%EB%A6%BC17.png)
+![image](https://user-images.githubusercontent.com/92079309/202111236-c19a00f2-17b8-4cad-af5b-98051d635bd8.png)
 
                          [그림14] 안정성
 
 5가지 평가 기준 중 네 번째인 안정성입니다.
 변동성은 상권의 변동률입니다. (변동률 100당 2.5점) 운영 연수는 선택 지역 점포 평균 운영 연수입니다. (백분위 5/25/50/75/100으로 나누어 점수화) 휴/폐업률은 휴/폐업 점포의 비율입니다. (폐업 점포 비율 48/52/54/57/67로 나누어 점수화) 아래 텍스트는 안정성을 점수화한 데이터의 수치들을 나타내어 줍니다.
 
-![그림18.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/17d9feb0-4b0b-4c5d-8b76-11ae107fe7f8/%EA%B7%B8%EB%A6%BC18.png)
+![image](https://user-images.githubusercontent.com/92079309/202111324-abeb9456-3175-469a-8558-c435a6a8b8a7.png)
 
 5가지 평가 기준 중 마지막인 성장성입니다.
 공급 대비 수요는 사업체 수 대비 생활 인구    비율입니다. (비율 100당 0.5점)
