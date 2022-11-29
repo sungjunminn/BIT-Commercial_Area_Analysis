@@ -74,7 +74,7 @@
 
 # 2. 프로젝트 범위 및 구성
 
-![image](https://user-images.githubusercontent.com/92079309/201587034-94fd1dec-cf28-4102-b84d-1b96ad9f3be3.png)
+![image](https://user-images.githubusercontent.com/92079309/204433155-12838f30-cc0e-4d4e-9892-ab3526d9dcd0.png)
 
 1. 관련 지식 습득
    - 지도 구현을 위한 Folium 라이브러리, 시각화를 위한 FusionChart 조사
